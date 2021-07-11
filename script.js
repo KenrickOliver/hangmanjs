@@ -14,7 +14,7 @@ const words  = ['apples', 'programming', 'work', 'nursing', 'interface', 'ninja'
 
 let selectedWord = words[Math.floor(Math.random() * words.length)]
 
-const correctLetters = ['n', 'i', 'n', 'j', 'a'];
+const correctLetters = [];
 const wrongLetters = [];
 
 function displayWord() {
