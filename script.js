@@ -32,8 +32,6 @@ function displayWord() {
 
     const innerWord = wordEl.innerText.replace(/\n/g, '');
 
-    console.log(innerWord)
-
     if(innerWord === selectedWord) {
         finalMessage.innerText = 'Congradulations! You win';
         popup.style.display = 'flex';
